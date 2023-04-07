@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clock_wrapper {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(./images/map.jpg) center/cover no-repeat;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  font-size: 3rem;
+  text-align: center;
+  color: yellow;
+  margin-top: 50px;
+}
+
+.clock {
+  display: flex;
+}
+.clock div {
+  margin: 1rem;
+}
+
+.clock span {
+  font-family: sans-serif;
+  width: 100%;
+  font-size: 5rem;
+  background-color: yellowgreen;
+  opacity: 0.8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock #text {
+  height: 3rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  background: black;
+}
+
+div .seconds {
+  position: relative;
+}
+
+#ampm {
+  margin-left: 26rem;
+  margin-top: 15rem;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  background: rgb(0, 125, 139);
+}
