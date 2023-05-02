@@ -1,5 +1,6 @@
-import Title from "./components/Title";
-import Setup from "./examples/3-post-request";
+import Title from "./components/Title"
+import Setup from "./examples/2-headers"
+import "./axios/Global"
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <Title />
       <Setup />
     </main>
-  );
+  )
 }
 
-export default App;
+export default App
